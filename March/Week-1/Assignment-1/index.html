@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <form action="" class="formData">
+
+        <input type="email" name="email" placeholder="Enter Your Email" >
+        <input type="password"  name="password1" placeholder="Enter Your Password" id="pass1">
+        <input type="password"  name="password2" placeholder="Confirm Password" id="pass2">
+        <input type="submit" value="Login" onclick="checkPassword()">
+
+    </form>
+    <script src="index.js"></script>
 </body>
 </html>
