@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(238, 163, 216);
+    color: rgb(0, 255, 234);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 0px 1vh black,
+        0px 0px 1vh black,
+        0px 0px 1vh black,
+        0px 0px 1vh black;
+}
+
+#divTimer {
+    display: none;
+    font-size: 50vh;
+    margin-bottom: 3%;
+    font-family: 'ZCOOL QingKe HuangYou';
+    width: fit-content;
+}
+
+#info {
+    cursor: pointer;
+    font-size: 4vh;
+}
+button{
+    border: none;
+    padding: 30px;
+    border-radius: 5px;
+    width: 200px;
+    color:rgb(238, 163, 216) ;
+}
+button:hover{
+    background-color: rgb(37, 37, 37);
+    
+}
